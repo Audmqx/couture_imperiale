@@ -34,8 +34,9 @@
             $saleImages = $products->map(function ($product) {
                 return $product->thumbnail;
             });
-            dd($saleImages );
-            dd($product);
+
+            
+        
         @endphp
 
 
