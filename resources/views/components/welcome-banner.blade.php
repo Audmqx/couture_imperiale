@@ -1,41 +1,19 @@
-<section class="bg-gray-50">
-    <div class="max-w-screen-xl px-4 py-32 mx-auto sm:px-6 lg:px-8">
-        <div class="max-w-xl mx-auto text-center">
-            <h1 class="text-3xl font-extrabold sm:text-5xl">
-                Welcome to the
+<section class="">
+    <div class="separating-line"></div>
+    <h1 class="big-typo">WOMEN`S FW\21 COLLECTION</h1>
+    <div class="separating-line"></div>
 
-                <span class="text-indigo-600">
-                    Lunar
-                </span>
+    <div class="dual">
+        <div class="child padding-w-color">
+            <img src={{asset('storage/le-manteau-angelina.jpg')}} alt="hey">
 
-                Demo Store
-
-                <span role="img"
-                      aria-hidden="true">
-                    👋
-                </span>
-            </h1>
-
-            <p class="mt-4 font-medium sm:leading-relaxed sm:text-xl">
-                This is an example of a classic e-commerce store built with Lunar.
-                We are currently making a screencast series to show you how we did it!
-            </p>
-
-            <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a class="block w-full px-12 py-3 font-medium text-white bg-indigo-600 rounded shadow sm:w-auto active:bg-indigo-500 hover:bg-indigo-700 focus:outline-none focus:ring"
-                   href="https://lunarphp.io/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Lunar Website
-                </a>
-
-                <a class="block w-full px-12 py-3 font-medium text-indigo-600 rounded shadow sm:w-auto hover:text-indigo-700 active:text-indigo-500 focus:outline-none focus:ring"
-                   href="https://github.com/lunarphp/demo-store"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Demo Store Repo
-                </a>
-            </div>
+            <div class="btn-lookbook">VOIR LE LOOKBOOK</div>
         </div>
+
+        <div class="child">
+            <video autoplay="" muted="" loop="" id="bgvid"><source src="{{asset('storage/inna-angelina.mp4')}}" type="video/mp4"></video>
+        </div>
+
+
     </div>
 </section>

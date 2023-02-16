@@ -1,0 +1,55 @@
+.storefront-layout{
+    padding: 0 10rem;
+}
+
+.separating-line {
+    height: 1px;
+    width: 100%;
+    margin: 5px 0;
+    background-color: lightgray;
+}
+
+
+.big-typo{
+    color: black;
+    font-size: 5vw;
+}
+
+.dual{
+    grid-gap: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    .padding-w-color{
+        background: indigo;
+        padding: 5rem;
+    }
+
+    .child{
+        display: flex;
+        flex-direction: column;
+        max-height: 650px;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            height: 100%;
+            object-fit: contain;
+            object-position: 50% 50%; 
+        }
+
+        video{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.btn-lookbook{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    width: max-content;
+    margin: 10px;
+}
